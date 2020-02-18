@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 CircleAvatar(
-                  radius: 50.0,
+                  radius: 70.0,
                   backgroundImage: AssetImage('images/profile.jpeg'),
                 ),
                 Text(
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  height: 20.0,
+                  height: 50.0,
                   width: 150.0,
                   child: Divider(
                     color: Colors.white70,
@@ -83,6 +83,9 @@ class MyApp extends StatelessWidget {
                       ),
                     ),
                   ),
+                ),
+                SizedBox(
+                  height: 120.0,
                 ),
               ]),
         ),
