@@ -37,48 +37,42 @@ class MyApp extends StatelessWidget {
                 letterSpacing: 3.0,
               ),
             ),
-            Container(
+            Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 32.0),
-              padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
-              child: Row(
-                children: <Widget>[
-                  Icon(
-                    Icons.phone,
-                    color: Colors.teal,
+//              padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
+              child: ListTile(
+                leading: Icon(
+                  Icons.phone,
+                  color: Colors.teal,
+                ),
+                title: Text(
+                  '+994 50 646 46 46',
+                  style: TextStyle(
+                    fontFamily: 'SourceSansPro',
+                    fontSize: 20.0,
+                    color: Colors.teal.shade900,
                   ),
-                  SizedBox(width: 10.0),
-                  Text(
-                    '+994 50 646 46 46',
-                    style: TextStyle(
-                      fontFamily: 'SourceSansPro',
-                      fontSize: 20.0,
-                      color: Colors.teal.shade900,
-                    ),
-                  )
-                ],
+                ),
               ),
             ),
-            Container(
+            Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 32.0),
-              padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
-              child: Row(
-                children: <Widget>[
-                  Icon(
-                    Icons.email,
-                    color: Colors.teal,
+//              padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
+              child: ListTile(
+                leading: Icon(
+                  Icons.email,
+                  color: Colors.teal,
+                ),
+                title: Text(
+                  'settar@gmail.com',
+                  style: TextStyle(
+                    fontFamily: 'SourceSansPro',
+                    fontSize: 20.0,
+                    color: Colors.teal.shade900,
                   ),
-                  SizedBox(width: 10.0),
-                  Text(
-                    'settar@gmail.com',
-                    style: TextStyle(
-                      fontFamily: 'SourceSansPro',
-                      fontSize: 20.0,
-                      color: Colors.teal.shade900,
-                    ),
-                  )
-                ],
+                ),
               ),
             ),
           ]),
